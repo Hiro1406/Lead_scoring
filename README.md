@@ -1,10 +1,16 @@
-This project focused on helping marketing teams prioritize their efforts by identifying which potential leads were most likely to convert into customers.
+Project: Lead Scoring Prediction
+I developed a machine learning model to predict customer conversion likelihood by analyzing affiliate click data. I boosted the F1-score from 78% to 85% through feature engineering and Grid-SearchCV tuning. By transforming user behavior into actionable lead scores, I provided a solution that helps marketing teams prioritize high-value prospects and optimize their decision-making process.
 
-What the project does: It uses machine learning to analyze user behavior—such as click records and product features—to predict the likelihood of a conversion. By assigning a "score" to each lead, the business can focus its resources on high-value prospects rather than treating all leads equally.
+Overview
+This project addresses a common business challenge: identifying high-value leads within a sea of potential customers. By analyzing user behavior and product interactions, this machine learning solution predicts the conversion likelihood of a lead, allowing marketing and sales teams to prioritize their resources effectively.
 
-What I did:
+Key Results
+Performance Boost: Improved the F1-score from 78% to 85% through rigorous feature engineering.
+Business Intelligence: Enabled data-driven marketing decisions by quantifying user intent based on behavior patterns.
 
-Data Strategy: Leveraged an Amazon affiliate dataset to extract meaningful patterns from user behavior and product interactions.
-Model Development: Developed and refined a predictive model using Logistic Regression.
-Optimization: Significantly boosted the model’s performance from a 78% to an 85% F1-score through rigorous feature engineering and hyperparameter tuning using Grid-SearchCV.
-Business Impact: Provided a tool that enables more accurate marketing decision-making, ensuring budget and time are spent where they have the highest ROI.
+Technical Stack
+
+Language: Python.
+Machine Learning: Logistic Regression.
+Optimization: Grid-SearchCV for hyperparameter tuning.
+Data Handling: Pandas, NumPy.
